@@ -170,7 +170,7 @@ public class DnsTestFragment extends ToolbarFragment {
                                 .setQrFlag(false);
 
                         long startTime = System.currentTimeMillis();
-                        DnsMessage response = dnsQuery.query(message.build(), InetAddress.getByName(server.getAddress()), server.getPort());
+                        DnsMessage response = dnsQuery.queryDns(message.build(), InetAddress.getByName(server.getAddress()), server.getPort());
                         long endTime = System.currentTimeMillis();
 
                         if (response.answerSection.size() > 0) {
@@ -283,7 +283,7 @@ public class DnsTestFragment extends ToolbarFragment {
     }
 
     private class DnsQuery extends NetworkDataSource {
-        public DnsMessage query(DnsMessage message, InetAddress address, int port) throws IOException {
+        public DnsMessage queryDns(DnsMessage message, InetAddress address, int port) throws IOException {
             return queryUdp(message, address, port);
         }
     }

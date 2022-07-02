@@ -1,19 +1,17 @@
 # iTXTech Daedalus
 
-[![Donate](https://img.shields.io/badge/alipay-donate-yellow.svg)](https://qr.alipay.com/FKX04751EZDP0SQ0BOT137)
-[![Build Status](https://travis-ci.org/iTXTech/Daedalus.svg?branch=master)](https://travis-ci.org/iTXTech/Daedalus)
-[![Jenkins](https://img.shields.io/jenkins/s/http/dev.itxtech.org:10298/job/Daedalus.svg)](http://dev.itxtech.org:10298/job/Daedalus/)
-
 __No root required Android DNS modifier and Hosts/DNSMasq resolver.__
 
-## Installation
-* __[Jenkins](http://dev.itxtech.org:10298/job/Daedalus/)__ - Debug signature
+## Installations
 * __[Releases](https://github.com/iTXTech/Daedalus/releases)__ - Release signature
 * __[Play Test](https://play.google.com/apps/testing/org.itxtech.daedalus)__ - Release signature
 
 [<img alt='Get it on Google Play'
       src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'
       height="80">](https://play.google.com/store/apps/details?id=org.itxtech.daedalus)
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+     alt="Get it on F-Droid"
+     height="80">](https://f-droid.org/packages/org.itxtech.daedalus)
 
 ## Useful links
 * __[Telegram](https://t.me/iTXTechDaedalus)__ - Join chat
@@ -76,7 +74,7 @@ __Users must comply with local laws and regulations.__<br>
 
 ## License
 
-    Copyright (C) 2017-2019 iTX Technologies <admin@itxtech.org>
+    Copyright (C) 2017-2022 iTX Technologies <admin@itxtech.org>
     
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
